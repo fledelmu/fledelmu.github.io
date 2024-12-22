@@ -1,0 +1,89 @@
+body {
+    background-color: #ccedf3; 
+    color:#001c4e;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width:70rem;
+    
+}
+
+td, th {
+    padding: 0.5rem;
+    border-bottom: 2px solid #64a9c4;
+    border-right: 2px solid #64a9c4; 
+    padding: 0.5rem; 
+}
+
+
+table tr td:first-child, 
+table tr th:first-child {
+  border-left: 2px solid #64a9c4;
+}
+
+table tr th {
+    border-top: 2px solid #64a9c4;
+    background-color: #84cffa;
+    
+}
+
+table tr:nth-child(even) {
+    background-color: #edf9ff;  
+}
+table tr:nth-child(odd) {
+    background-color: #daf2ff;  
+}
+
+table tr:nth-child(odd) td:nth-child(1){
+    background-color: #aedffa;  
+}
+
+
+table tr:nth-child(even) td:nth-child(1) {
+    background-color: #dbf4ff; 
+}
+
+table tr:first-child th:first-child {
+    border-top-left-radius: 0.5rem;
+}
+
+table tr:first-child th:last-child {
+    border-top-right-radius: 0.5rem;
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 0.5rem;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 0.5rem;
+}
+
+td div{
+    font-size:12px;
+}
+
+header div{
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+hr {
+    border: none;            
+    border-top: 3px solid #0f0f52; 
+    margin: 5px 0;           
+}
+
+h2 {
+    font-size:larger;
+    margin-bottom: 0.2rem; 
+}
+
+h3 {
+    margin-top: 0;
+    font-size:medium;
+}
